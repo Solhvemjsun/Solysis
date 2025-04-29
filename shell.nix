@@ -22,7 +22,7 @@ in pkgs.mkShell {
   ];
 
   shellHook = ''
-    echo "Welcome to AfterDLC!"
-    echo "Type 'jupyter-lab to open the develop env"
+    echo "Thanks for using Solysis, happy research!"
+    jupyter-lab
   '';
 }
