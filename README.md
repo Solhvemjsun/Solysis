@@ -1,22 +1,26 @@
 # Solysis
+
 An animal behavior and Calcium imaging analysis pipeline.
 It's still in the early development stage so goodluck XD.
 
+
 # Download
+
 In a blank folder:
 ```console
 git clone https://github.com/Solhvemjsun/Solysis
 ```
+
 
 # Launching
 
 ## Using Nix package manager or NixOS (recommended)
 In the folder
 ```console
-nix-shell
+nix-develop .#Solysis
 
 ```
-You will enter the nix environment containing all the required package, and Jupyterlab will automatically launched in your default or activating browser.
+You will enter the nix environment containing all the required package, and Jupyterlab will automatically launched in your browser.
 
 ## Using Conda
 Import the conda environment (environment.yml) in your Conda shell (you only need to do this once).
@@ -36,5 +40,9 @@ jupyter-lab
 ```
 
 ## Using Anaconda client
-
 Import the environment, activate it, then launch the jupyter-lab in the homepage.
+
+
+# Function
+Reconstruct animal's 3D trajectory:
+Please check the [interactive demo](https://github.com/Solhvemjsun/Solysis/tree/main/demo/3D_trajectory/).
