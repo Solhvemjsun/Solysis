@@ -17,7 +17,7 @@ git clone https://github.com/Solhvemjsun/Solysis
 ## Using Nix package manager or NixOS (recommended)
 In the folder
 ```console
-nix-develop .#Solysis
+nix develop
 
 ```
 You will enter the nix environment containing all the required package, and Jupyterlab will automatically launched in your browser.
