@@ -36,6 +36,7 @@
             pyqt5
             pyqt5-sip
             pyqtgraph
+            pygame
           ]))
           # pkgs.texlive.combined.scheme-full
         ];
