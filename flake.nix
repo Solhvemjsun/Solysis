@@ -14,6 +14,7 @@
       default = pkgs.mkShell {
         nativeBuildInputs = with pkgs; [
           (python3.withPackages (python-pkgs: with python-pkgs; [
+            # Solysis
             requests
             numpy
             natsort
@@ -29,6 +30,13 @@
             mplcursors
             kaleido
             dash
+            # Brainflow https://brainflow.readthedocs.io/en/stable/Examples.html
+            brainflow
+            mne
+            pyqt5
+            pyqt5-sip
+            pyqtgraph
+            pygame
           ]))
           # pkgs.texlive.combined.scheme-full
         ];
