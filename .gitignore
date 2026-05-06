@@ -1,5 +1,2 @@
-
-CaImAn/data/msCrossSession.tif
-CaImAn/results/all_sessions_for_one_animal.hdf5
-Brainflow/images/*
-/CaImAn/data
+CaImAn/data/
+CaImAn/results/
